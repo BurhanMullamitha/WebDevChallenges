@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+@import url('https://fonts.googleapis.com/css?family=Sunflower:300');
+
+body{
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.wrapper{
+  height: 100%;
+  background: url(images/background_header_preview.jpeg);
+  background-size: 100% ;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.wrapper:before{
+  content: '';
+  position: absolute;
+  width: 70%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #DB5461;
+  transform-origin: bottom right;
+  transform: skew(18deg, 0deg);
+}
+
+img{
+  position: absolute;
+  z-index: 2;
+  margin-top: 4%;
+  margin-left: 5%;
+}
+
+.title{
+  position: absolute;
+  z-index: 2;
+  margin-top: 18%;
+  margin-left: 5%;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  position: absolute;
+  width: 425px;
+  height: 50px;
+  background: white;
+  z-index: 3;
+  right: 0;
+  margin-right: 5%;
+  margin-top: 5%;
+  text-transform: uppercase;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  justify-items:center;
+  align-items: center;
+}
+
+header a{
+  text-decoration: none;
+  color: #262626;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+header a:hover{
+  color: #DB5461;
+  transition: 0.5s;
+}
+
+.learn_more{
+  position: absolute;
+  z-index: 3;
+  margin-top: 30%;
+  margin-left: 5%;
+  height: 45px;
+  width: 180px;
+  text-align: center;
+  line-height: 46px;
+  color: #262626;
+  text-transform: uppercase;
+  border-radius: 25px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  background: #fff;
+  border: 5px solid black;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+
+.footer{
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  height: 15%;
+  background-color: #30343f;
+  bottom: 0;
+  padding-left: 150px;
+  font-size: 18px;
+  font-family: 'Sunflower', sans-serif;
+}
+
+.footer_element{
+  margin-top: 30px;
+  width: 25%;
+  margin-left: 100px;
+  float: left;
+}
+
+.imgftr1{
+  display: block;
+  float: left;
+  height: 50px;
+  width: 50px;
+  background: url(images/location_preview.png);
+  background-size: 100%;
+  margin-top: 12px;
+}
+
+.imgftr2{
+  display: block;
+  float: left;
+  height: 50px;
+  width: 50px;
+  background: url(images/customer_preview.png);
+  background-size: 100%;
+  margin-top: 12px;
+}
+
+.imgftr3{
+  display: block;
+  float: left;
+  height: 50px;
+  width: 50px;
+  background: url(images/experience_preview.png);
+  background-size: 100%;
+  margin-top: 12px;
+}
+
+.textftr{
+    padding-left: 8px;
+    float: left;
+}
+
+.footer_element span{
+  margin: 0;
+  color: grey;
+}
+
+.footer_element h3{
+  margin-bottom: 0;
+}

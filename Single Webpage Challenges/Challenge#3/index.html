@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/animate.css" type="text/css">
+        <title>Furniture</title>
+    </head>
+    <body>
+        <div id="main">
+
+            <div id="upper">
+                <div id="header">
+                    <div id="logo">
+                        <img src="images/logo.png" height="30px">
+                    </div>
+                    <div class="topnav" id="myTopnav">
+                        <a href="#">Shop</a>
+                        <a href="#">Collection</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Contact</a>
+                        <a href="#"><img class="search" src="images/search.png" height="22px"></a>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <section id="title">
+                    Fresh Furniture
+                </section>
+
+            </div>
+        
+            <div id="body-main">
+                <div id="body-title">
+                    <span>about us</span>
+                </div>
+                <div id="content">
+                    <section id="content-left">
+                        <h3>We Provide Good <br> Furniture</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </section>
+                    <section id="content-center">
+                        <h3>Our <br>Specialisation</h3>
+                        <br>
+
+                        <div class="elements">
+                            <div class="element-1">
+                                <div class="element-image"></div>
+                                <div class="element-title">Delivery</div>
+                            </div>
+                            <div class="element-2">
+                                <div class="element-image"></div>
+                                <div class="element-title">Support</div>
+                            </div>
+                            <div class="element-3">
+                                <div class="element-image"></div>
+                                <div class="element-title">Montage</div>
+                            </div>
+                            
+                        </div>
+                        
+                    </section>
+                    <section id="content-right">
+                            <br><br><br><br><br><br><br>
+                            <br><br><br><br><br><br><br>
+                    </section>
+                </div>
+            </div>
+            
+            <div id="body-main-2">
+                
+                <div id="body-title-2">
+                    <span class="category-title">categories</span>
+                </div>
+                
+                <div id="categories">
+                    <section class="category-1" align = "center">
+                        <span class="data">Bathroom</span>
+                    </section>
+                    <section class="category-2" align="center">
+                        <span class="data">Kitchen</span>
+                    </section>
+                    <section class="category-3" align="center">
+                        <span class="data">Bedroom</span>
+                    </section>
+                    <section class="category-4" align="center">
+                        <span class="data">Living Room</span>
+                    </section>
+                </div>
+
+            </div>
+
+            <div id="footer">
+                <h3> &#169; IKAE 2018 | All rights reserved.</h3>
+            </div>
+
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+
+        <script>
+            function myFunction(){
+            var x = document.getElementById('myTopnav');
+            if(x.className === "topnav"){
+            x.className += " responsive";
+            }
+            else {
+            x.className = "topnav";
+            }
+        }
+        </script>
+        
+    </body>
+</html>
+
+
+
